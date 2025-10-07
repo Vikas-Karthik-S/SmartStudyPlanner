@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Study Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Smart Study Planner</h1>
+            <p>Boost your productivity & manage your study goals efficiently</p>
+            <div class="quote" id="motivationalQuote">"Loading motivational quote..."</div>
+        </div>
+    </header>
+
+    <!-- Task Manager Section -->
+    <main>
+        <section class="task-manager">
+            <h2>Your Tasks</h2>
+            <div class="task-images">
+                <img src="assets/planner.jpg" alt="Planner Image" class="left-img">
+                <img src="assets/clock.jpg" alt="Clock Image" class="right-img">
+            </div>
+            <div class="task-form">
+                <input type="text" id="taskTitle" placeholder="Task Title">
+                <input type="text" id="taskSubject" placeholder="Subject">
+                <input type="date" id="taskDueDate">
+                <select id="taskPriority">
+                    <option value="High">High Priority</option>
+                    <option value="Medium">Medium Priority</option>
+                    <option value="Low">Low Priority</option>
+                </select>
+                <button id="addTaskBtn">Add Task</button>
+            </div>
+            <div class="search-filter">
+                <input type="text" id="searchTask" placeholder="Search tasks by title or subject">
+            </div>
+            <div class="task-list" id="taskList"></div>
+        </section>
+
+        <!-- Progress Section -->
+        <section class="progress-section">
+            <h2>Progress Tracker</h2>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill">0%</div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        © Vikas Karthik S | IBM-Internship (Frontend Web Development) | Edunet Foundation - 2025
+    </footer>
+</body>
+</html>
