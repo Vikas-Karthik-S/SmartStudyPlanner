@@ -1,2 +1,2 @@
-# SmartStudyPlanner
-Smart Study Planner: An interactive web app using HTML, CSS &amp; JS to help students organize study schedules, track tasks, mark completion, and monitor progress with a dynamic tracker and motivational quotes. Data is stored locally for easy access.
+# Smart Study Planner
+Smart Study Planner is a highly interactive web application built with HTML, CSS, and JavaScript that helps students efficiently organize their study schedules, track tasks, and monitor progress. Users can add, edit, delete, and mark tasks as completed, while the dynamic progress tracker updates in real-time. Motivational quotes, colorful visuals, and responsive design make studying engaging and productive. All data is stored locally using Local Storage for ease of access.
